@@ -1,0 +1,61 @@
+/***MIXINS**************/
+/***UTILITIES**************/
+.inline {
+  display: inline-block; }
+
+.text-white {
+  color: white; }
+
+.text-gray {
+  color: gray; }
+
+.mb-10 {
+  margin-bottom: 10%; }
+
+.pb-5 {
+  padding-bottom: 5%; }
+
+/***HEADER**************/
+header.nav1 {
+  background-color: #eee;
+  padding: 20px 0; }
+  header.nav1 .col-sm-8 .inline {
+    float: right; }
+  header.nav1 .col-sm-8 button.btn {
+    background-color: #eee !important; }
+
+.nav2 .col-sm-4:first-child {
+  text-transform: uppercase; }
+.nav2 img {
+  max-width: 100%; }
+.nav2 .buscador {
+  border: 1px solid;
+  width: 200px;
+  margin: auto;
+  margin-top: 3px;
+  padding: 8px;
+  border-radius: 3px; }
+  .nav2 .buscador input {
+    border-style: none;
+    width: 160px; }
+  .nav2 .buscador span {
+    text-align: right;
+    display: inline-block; }
+
+.nav3 {
+  background-color: #eee;
+  padding: 20px 0; }
+  .nav3 li {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block; }
+
+#clientes {
+  background-image: url(../images/client-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#portada {
+  background-image: url(../images/blog3.jpg); }
+
+/*# sourceMappingURL=main.css.map */
